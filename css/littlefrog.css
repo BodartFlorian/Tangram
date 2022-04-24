@@ -1,0 +1,43 @@
+.bigYellow-Triangle {
+    transform: translateX(1.6em) translateY(0.4em) rotate(90deg);
+    transition: transform 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
+}
+
+.bigRed-Triangle {
+    transform: translateX(-1em) translateY(-2em) rotate(180deg);
+    transition: transform 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
+}
+
+.pink-Triangle {
+    transform: translateX(2.8em) translateY(-8em) rotate(360deg);
+    transition: transform 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
+}
+
+.orange-Square {
+    transform: translate(-3.5em, -8em);
+    transition: transform 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
+}
+
+.green-Parallelogram {
+    transform: translateX(1.4rem) translateY(4.1em) rotate(360deg);
+    transition: transform 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
+}
+
+.purple-Triangle {
+    transform: translateX(0.3em) translateY(-8em) rotate(90deg);
+    transition: transform 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
+}
+
+.turquoise-Triangle {
+    transform: translateX(-1em) translateY(-4.5em) rotate(45deg);
+    transition: transform 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
+}
+
+
+body {
+    background-image: url(https://media.istockphoto.com/photos/rain-fall-on-the-ground-picture-id1049365996?k=20&m=1049365996&s=612x612&w=0&h=tLu1PxVswN-g7YVg7MaHuBHtMAG4wWBZuz8p9YA2JtQ=);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}

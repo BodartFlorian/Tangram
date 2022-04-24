@@ -4,6 +4,18 @@
 // }
 
 
+let reset = document.querySelector("#reset");
+
+reset.onclick = function swap(cssFile) {
+    if (window.matchMedia("(max-width: 767px)").matches){
+        let link = document.getElementById("change-style");
+        link.href = ('css/littlereset.css');
+    }
+    else {
+        let link = document.getElementById("change-style");
+        link.href = ('css/reset.css');
+    }
+}
 let square = document.querySelector("#square");
 
 square.onclick = function swap(cssFile) {
@@ -92,6 +104,42 @@ bird.onclick = function swap(cssFile) {
     else {
         let link = document.getElementById("change-style");
         link.href = ('css/AdrienBird.css');
+    }
+}
+let turtle = document.querySelector("#turtle");
+
+turtle.onclick = function swap(cssFile) {
+    if (window.matchMedia("(max-width: 767px)").matches){
+        let link = document.getElementById("change-style");
+        link.href = ('css/littleturtle.css');
+    }
+    else {
+        let link = document.getElementById("change-style");
+        link.href = ('css/AuroreTurtle.css');
+    }
+}
+let frog = document.querySelector("#frog");
+
+frog.onclick = function swap(cssFile) {
+    if (window.matchMedia("(max-width: 767px)").matches){
+        let link = document.getElementById("change-style");
+        link.href = ('css/littlefrog.css');
+    }
+    else {
+        let link = document.getElementById("change-style");
+        link.href = ('css/FloFrog.css');
+    }
+}
+let vulture = document.querySelector("#vulture");
+
+vulture.onclick = function swap(cssFile) {
+    if (window.matchMedia("(max-width: 767px)").matches){
+        let link = document.getElementById("change-style");
+        link.href = ('css/littlevulture.css');
+    }
+    else {
+        let link = document.getElementById("change-style");
+        link.href = ('css/CedricVulture.css');
     }
 }
 
