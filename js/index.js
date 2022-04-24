@@ -4,7 +4,6 @@
 // }
 
 
-
 let square = document.querySelector("#square");
 
 square.onclick = function swap(cssFile) {
@@ -17,7 +16,6 @@ square.onclick = function swap(cssFile) {
         link.href = ('css/square.css');
     }
 }
-
 
 let cat = document.querySelector("#cat");
 
@@ -32,7 +30,6 @@ cat.onclick = function swap(cssFile) {
     }
 }
 
-
 let bear = document.querySelector("#bear");
 
 bear.onclick = function swap(cssFile) {
@@ -46,7 +43,6 @@ bear.onclick = function swap(cssFile) {
     }
 }
 
-
 let fish = document.querySelector("#fish");
 
 fish.onclick = function swap(cssFile) {
@@ -59,6 +55,7 @@ fish.onclick = function swap(cssFile) {
         link.href = ('css/fish.css');
     }
 }
+
 let goose = document.querySelector("#goose");
 
 goose.onclick = function swap(cssFile) {
@@ -69,6 +66,32 @@ goose.onclick = function swap(cssFile) {
     else {
         let link = document.getElementById("change-style");
         link.href = ('css/goose.css');
+    }
+}
+
+let dog = document.querySelector("#dog");
+
+dog.onclick = function swap(cssFile) {
+    if (window.matchMedia("(max-width: 767px)").matches){
+        let link = document.getElementById("change-style");
+        link.href = ('css/littledog.css');
+    }
+    else {
+        let link = document.getElementById("change-style");
+        link.href = ('css/dog.css');
+    }
+}
+
+let bird = document.querySelector("#bird");
+
+bird.onclick = function swap(cssFile) {
+    if (window.matchMedia("(max-width: 767px)").matches){
+        let link = document.getElementById("change-style");
+        link.href = ('css/littlebird.css');
+    }
+    else {
+        let link = document.getElementById("change-style");
+        link.href = ('css/AdrienBird.css');
     }
 }
 

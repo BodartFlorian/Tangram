@@ -1,0 +1,43 @@
+.bigYellow-Triangle {
+    transform: translateX(2em) translateY(-2.9em) rotate(225deg);
+    transition: transform 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
+}
+
+.bigRed-Triangle {
+    transform: translateX(-5em) translateY(-3em) rotate(315deg);
+    transition: transform 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
+}
+
+.pink-Triangle {
+    transform: translateX(-4.2em) translateY(1.5em) rotate(45deg);
+    transition: transform 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
+}
+
+.orange-Square {
+    transform: translateX(2em) translateY(0.6em) rotate(45deg);
+    transition: transform 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
+}
+
+.green-Parallelogram {
+    transform: translateX(5.1rem) translateY(-7.7em) rotate(135deg);
+    transition: transform 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
+}
+
+.purple-Triangle {
+    transform: translateX(-8.5em) translateY(-6.9em) rotate(205deg);
+    transition: transform 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
+}
+
+.turquoise-Triangle {
+    transform: translateX(7.3em) translateY(-4.7em) rotate(45deg);
+    transition: transform 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
+}
+
+body {
+    background-image: url(https://static.cotemaison.fr/medias_11328/w_1629,h_911,c_crop,x_0,y_665/w_640,h_360,c_fill,g_north/v1487107043/gazon-pelouse_5800367.jpg);
+    background-color: rgba(93, 218, 61, 0.836);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}

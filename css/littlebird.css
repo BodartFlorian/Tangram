@@ -1,0 +1,43 @@
+.bigYellow-Triangle {
+    transform: translateX(-0.6em) translateY(-7.2em) rotate(90deg);
+    transition: transform 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
+}
+
+.bigRed-Triangle {
+    transform: translateX(4.4em) translateY(-7.2em) rotate(180deg);
+    transition: transform 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
+}
+
+.pink-Triangle {
+    transform: translateX(-3em) translateY(-3.8em) rotate(315deg);
+    transition: transform 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
+}
+
+.orange-Square {
+    transform: translateX(-0.4em) translateY(-2.95em) rotate(45deg);
+    transition: transform 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
+}
+
+.green-Parallelogram {
+    transform: translateX(5.8rem) translateY(-3.45em) rotate(0deg) rotateX(180deg);
+    transition: transform 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
+}
+
+.purple-Triangle {
+    transform: translateX(-8.1em) translateY(-5.9em) rotate(180deg);
+    transition: transform 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
+}
+
+.turquoise-Triangle {
+    transform: translateX(1.4em) translateY(-1.2em) rotate(135deg);
+    transition: transform 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
+}
+
+body {
+    background-color: bisque;
+    background-image: url(https://img.freepik.com/vecteurs-libre/cartoon-ciel-nuageux-nuages-gonfles-illustration-fond-transparent-ciel-bleu_102902-1923.jpg?w=2000);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
