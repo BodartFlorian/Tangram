@@ -1,0 +1,43 @@
+.turquoise-Triangle {
+    transform: translateX(-1.2em) translateY(-3.5em) rotate(135deg);
+    transition: transform 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
+}
+
+.pink-Triangle {
+    transform: translateX(0em) translateY(3.5em) rotate(180deg);
+    transition: transform 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
+}
+
+.orange-Square {
+    transform: translate(4.8em, -1.7em);
+    transition: transform 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
+}
+
+.purple-Triangle {
+    transform: translateX(0em) translateY(-7.1em) rotate(90deg);
+    transition: transform 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
+}
+
+.green-Parallelogram {
+    transform: translateX(1rem) translateY(-0.5em) rotate(315deg);
+    transition: transform 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
+}
+
+.bigRed-Triangle {
+    transform: translateX(-3em) translateY(0em) rotate(405deg);
+    transition: transform 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
+}
+
+.bigYellow-Triangle {
+    transform: translateX(-3em) translateY(-3.5em) rotate(225deg);
+    transition: transform 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
+}
+
+body {
+    background-color: rgb(235, 193, 102);
+    background-image: url(https://i.pinimg.com/originals/b1/92/28/b19228f0fc6af3a905da6554821421b4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}

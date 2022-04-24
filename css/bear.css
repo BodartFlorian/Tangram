@@ -1,0 +1,43 @@
+.bigYellow-Triangle {
+  transform: translateX(-4.5em) translateY(-6.5em) rotate(45deg);
+  transition: transform 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
+}
+
+.bigRed-Triangle {
+  transform: translateX(-13em) translateY(0em) rotate(270deg);
+  transition: transform 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
+}
+
+.pink-Triangle {
+  transform: translateX(-10.5em) translateY(10em) rotate(360deg);
+  transition: transform 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
+}
+
+.orange-Square {
+  transform: translateX(9.6em) translateY(-6.5em) rotate(45deg);
+  transition: transform 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
+}
+
+.green-Parallelogram {
+  transform: translateX(7rem) translateY(4.25em) rotate(45deg);
+  transition: transform 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
+}
+
+.purple-Triangle {
+  transform: translateX(14.8em) translateY(-4.75em) rotate(45deg);
+  transition: transform 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
+}
+
+.turquoise-Triangle {
+  transform: translateX(1.1em) translateY(-5em) rotate(180deg);
+  transition: transform 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+  background-image: url(https://img.freepik.com/vecteurs-libre/paysage-arctique-illustration-plate-igloo-glace-maison-cabane-neige-montagnes-glace_212168-687.jpg?w=996);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}

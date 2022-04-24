@@ -1,0 +1,41 @@
+.bigYellow-Triangle {
+    transform: translateX(1em) translateY(1.5em) rotate(225deg);
+    transition: transform 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
+}
+
+.bigRed-Triangle {
+    transform: translateX(0.3em) translateY(-3.8em) rotate(90deg);
+    transition: transform 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
+}
+
+.pink-Triangle {
+    transform: translateX(-3.5em) translateY(-11.4em) rotate(180deg);
+    transition: transform 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
+}
+
+.orange-Square {
+    transform: translate(-4.7em, -8.9em);
+    transition: transform 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
+}
+
+.green-Parallelogram {
+    transform: translateX(7.1rem) translateY(2em) rotate(360deg);
+    transition: transform 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
+}
+
+.purple-Triangle {
+    transform: translateX(-6em) translateY(-11.4em) rotate(270deg);
+    transition: transform 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
+}
+
+.turquoise-Triangle {
+    transform: translateX(-2.2em) translateY(-5.3em) rotate(315deg);
+    transition: transform 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
+}
+body {
+    background-image: url(https://img.freepik.com/vecteurs-libre/cadre-fete-doodle-animal_53876-115227.jpg?w=826);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}

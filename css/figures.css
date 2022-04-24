@@ -1,0 +1,152 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: bisque;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 10%;
+    background-color: rgb(167, 167, 240);
+    height: 110px;
+    box-shadow: 0px 2px 4px 2px rgba(0, 0, 0, 0.637);
+}
+
+button, button img, #reset{
+  width: 70px;
+  height: 65px;
+  box-shadow: black;
+  border-radius: 10px;
+}
+button {
+  margin-left: 10px;
+}
+button:hover {
+    transform: scale(1.25);
+}
+#main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    width: 75vw;
+    margin: auto;
+    margin-top: 5%;
+}
+.figure {
+  position: absolute;
+}
+
+#bigYellow-Triangle {
+  width: 10em;
+  height: 20em;
+  clip-path: polygon(0% 50%, 100% 0%, 100% 100%);
+  background-color: #ffd900;
+}
+#bigRed-Triangle {
+  width: 20em;
+  height: 10em;
+  clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
+  background-color: #ff0000;
+}
+
+#pink-Triangle {
+  width: 5em;
+  height: 10em;
+  clip-path: polygon(0% 0%, 100% 50%, 0% 100%);
+  background-color: #f36bd6;
+}
+#turquoise-Triangle {
+  width: 10em;
+  height: 10em;
+  clip-path: polygon(0% 0%, 100% 0%, 0% 100%);
+  background-color: #13f7d8;
+}
+#orange-Square {
+  width: 10em;
+  height: 10em;
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  background-color: #ffae00;
+}
+
+#green-Parallelogram {
+  width: 17.5em;
+  height: 5em;
+  clip-path: polygon(28.5% 0%, 85.6% 0%, 57.5% 100%, 0% 100%);
+  background-color: #2ea85f;
+}
+#purple-Triangle {
+  width: 10em;
+  height: 5em;
+  clip-path: polygon(0% 0%, 100% 0%, 50% 100%);
+  background-color: rgb(141, 4, 154);
+}
+
+@media only screen and (max-width: 500px) {
+  button ,button img, #reset {
+    width: 45px;
+    height: 45px;
+  }
+}
+@media only screen and (max-width: 600px) and (min-width: 500px){
+  button ,button img, #reset {
+    width: 55px;
+    height: 55px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  button:hover {
+    transform: scale(1.15);
+  }
+  #bigYellow-Triangle {
+    width: 5em;
+    height: 10em;
+  
+  }
+  
+  #bigRed-Triangle {
+    width: 10em;
+    height: 5em;
+  }
+  
+  #pink-Triangle {
+    width: 2.5em;
+    height: 5em;
+  }
+  
+  #turquoise-Triangle {
+    width: 5em;
+    height: 5em;
+  }
+  
+  #orange-Square {
+    width: 5em;
+    height: 5em;
+  }
+  
+  #green-Parallelogram {
+    width: 8.75em;
+    height: 2.5em;
+  }
+  
+  #purple-Triangle {
+    width: 5em;
+    height: 2.5em;
+  }
+}
+@media only screen and (max-width: 900px ){
+
+  nav {
+    flex-wrap: wrap;
+    padding: 0 10%;
+    height: 180px;
+  }
+}
